@@ -1,3 +1,13 @@
+html, body {
+    background-image: url('./assets/images/pizza.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+}
+
 .top {
     background-color: red;
     height: 50px;
@@ -12,7 +22,7 @@
 
 .nav-container1 {
     margin: auto;
-    width: 80%;
+    width: 60%;
     height: 100%;
 }
 
