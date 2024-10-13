@@ -6,34 +6,33 @@ html, body {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center;
+    font-family: "Roboto", sans-serif; 
 }
 
 .top {
     background-color: red;
-    height: 50px;
+    height: 65px;
     width: 100%;
+    box-shadow: 1px 35px 82px 21px rgba(0,0,0,1);
+    -webkit-box-shadow: 1px 35px 82px 21px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 35px 82px 21px rgba(0,0,0,1);
 }
 
 .nav-bar {
+    text-align: center;
+    font-size: xx-large;
+    text-transform: capitalize;
     width: 100%;
-    background-color: lightblue;
     height: 60px;
+    opacity: 100%;
+    color: white;
 }
 
 .nav-container1 {
     margin: auto;
-    width: 60%;
+    width: 80%;
     height: 100%;
-}
-
-.nav-container2 {
-    width: 100%;
-    height: 100%;
-    justify-content: space-between;
-    align-items: center;
-    background-color: aquamarine;
-    display: flex;
-    flex-direction: row;
+    padding-top: 20px;
 }
 
 
