@@ -46,8 +46,8 @@ html, body {
 }
 
 .nav-logo {
-    height: 100px; /* Adjust logo size */
-    width: 150px; /* Adjust logo size */
+    height: 75px; /* Adjust logo size */
+    width: 100px; /* Adjust logo size */
     background-image: url('./assets/images/logo.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -66,13 +66,14 @@ html, body {
 
 /* Styling for the right-aligned social media icons */
 .nav-right {
+    font-size: 35px;
     display: flex;
     justify-content: flex-end; /* Ensures icons stay on the right */
     flex: 1; /* Makes the right section flexible */
 }
 
 .nav-right li {
-    margin-left: 15px; /* Spacing between social media icons */
+    margin-left: 25px; /* Spacing between social media icons */
 }
 
 .nav-links {
