@@ -150,9 +150,17 @@
 /* menu div */
 
 .download-menu  {
+    display: flex;
     height: 600px;
     width: 100%;
-    text-align: center;
     color: white;
     font-size: xx-large;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.download-menu h4 {
+    padding-bottom: 25px;
+    margin: 0;
 }
