@@ -108,18 +108,45 @@ html, body {
     align-items: center;
     height: 400px;
     width: 100%;
-    background-color: pink;
+    background-color: white;
 }
 
 .links-container {
     height: 100%;
-    width: 70%;
+    width: 75%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background-color: white;
 }
 
 .mid-link-1 {
-    
+    background-color: red;
+    height: 250px;
+    width: 350px;
+    display: flex;
+    justify-content: center; 
 }
+
+.mid-link-1 h2, .mid-link-2 h2, .mid-link-3 h2 {
+    color: white;
+    padding-top: 200px;
+}
+
+.mid-link-2 {
+    background-color: green;
+    height: 250px;
+    width: 350px;
+    display: flex;
+    justify-content: center; 
+}
+
+.mid-link-3 {
+    background-color: blue;
+    height: 250px;
+    width: 350px;
+    display: flex;
+    justify-content: center; 
+}
+
+/* menu div */
