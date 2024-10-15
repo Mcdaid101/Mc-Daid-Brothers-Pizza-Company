@@ -8,7 +8,7 @@
 }
 
 .top {
-    background-color: red;
+    background-color: #982B1C;
     height: 65px;
     width: 100%;
     box-shadow: 1px 35px 82px 21px rgba(0,0,0,1);
@@ -87,15 +87,28 @@
 
 .logo {
     font-size: x-large;
-    padding-top: 200px;
+    padding-top: 150px;
     text-align: center;
     font-family: "Bungee Tint", sans-serif;
     color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .logo h2 {
-    padding-top: 250px;
+    padding-top: 10px;
     padding-bottom: 75px;
+}
+
+.logo-pic {
+    height: 300px; 
+    width: 300px; 
+    background-image: url('./assets/images/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 /* middle links in index.html */
