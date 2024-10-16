@@ -184,20 +184,23 @@
     height: 700px;
     background-color: white;
     display: flex;
-    flex-direction: column; /* Stack the title above the container */
+    flex-direction: column;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .section-title {
-    width: 75%; /* Match the width of the container */
+    width: 75%; 
     margin-bottom: 20px;
-    margin-left: 0; /* Align with the left side */
+    margin-left: 0; 
 }
 
 .bottom-container {
     width: 75%;
     display: flex;
-    justify-content: space-between; /* Ensure the two divs are side by side */
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 100px;
 }
 
 .bottom-left, .bottom-right {
@@ -212,5 +215,29 @@
 
 .bottom-right {
     background-color: blue;
+    color: white;
+}
+
+.photo-1, .photo-2 {
+    width: 100%;
+    height: 250px;
+    background-color: blue;
+    margin-top: 25px;
+}
+
+.photo-3 {
+    height: 450px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-color: black;
+}
+
+/* footer */
+
+.footer {
+    margin-top: 200px;
+    width: 100%;
+    height: 250px;
+    background-color: #982B1C;
     color: white;
 }
