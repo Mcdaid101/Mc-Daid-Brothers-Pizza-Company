@@ -177,3 +177,21 @@
     padding-bottom: 25px;
     margin: 0;
 }
+
+/* Home bottom */
+
+.home-bottom {
+    height: 700px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bottom-container {
+    margin: 0;
+    height: 100%;
+    width: 75%;
+    background-color: pink;
+}
