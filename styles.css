@@ -184,14 +184,33 @@
     height: 700px;
     background-color: white;
     display: flex;
+    flex-direction: column; /* Stack the title above the container */
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
+}
+
+.section-title {
+    width: 75%; /* Match the width of the container */
+    margin-bottom: 20px;
+    margin-left: 0; /* Align with the left side */
 }
 
 .bottom-container {
-    margin: 0;
-    height: 100%;
     width: 75%;
-    background-color: pink;
+    display: flex;
+    justify-content: space-between; /* Ensure the two divs are side by side */
+}
+
+.bottom-left, .bottom-right {
+    flex: 1;
+    padding: 20px;
+}
+
+.bottom-left {
+    background-color: black;
+    color: white;
+}
+
+.bottom-right {
+    background-color: blue;
+    color: white;
 }
