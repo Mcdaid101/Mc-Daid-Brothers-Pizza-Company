@@ -1,10 +1,11 @@
 .background {
-    background-image: url('./assets/images/pizza.jpg');
+    background-image: url('./assets/images/bread.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center;
     font-family: "Roboto", sans-serif;
+    min-height: 100vh; /* Full height fix */
 }
 
 .top {
@@ -37,7 +38,6 @@
     align-items: center;
 }
 
-
 .nav-left {
     display: flex;
     flex: 1; 
@@ -52,7 +52,6 @@
     background-repeat: no-repeat;
 }
 
-
 .nav-center {
     display: flex;
     justify-content: center; 
@@ -62,7 +61,6 @@
 .nav-center li {
     margin: 0 15px; 
 }
-
 
 .nav-right {
     font-size: 35px;
@@ -84,7 +82,6 @@
 }
 
 /* Logo on index.html */
-
 .logo {
     font-size: x-large;
     padding-top: 150px;
@@ -112,7 +109,6 @@
 }
 
 /* middle links in index.html */
-
 .middle-links {
     display: flex;
     justify-content: center;
@@ -132,7 +128,10 @@
 }
 
 .mid-link-1 {
-    background-color: red;
+    background-image: url('assets/images/pizzatile.jpg');
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 250px;
     width: 350px;
     display: flex;
@@ -145,7 +144,10 @@
 }
 
 .mid-link-2 {
-    background-color: green;
+    background-image: url('assets/images/breadtile.jpg');
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 250px;
     width: 350px;
     display: flex;
@@ -153,7 +155,10 @@
 }
 
 .mid-link-3 {
-    background-color: blue;
+    background-image: url('assets/images/deliverypizza.jpg');
+    object-fit: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 250px;
     width: 350px;
     display: flex;
@@ -161,8 +166,12 @@
 }
 
 /* menu div */
-
 .download-menu  {
+    background-image: url('./assets/images/pizza-2810589\ \(1\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
     display: flex;
     height: 600px;
     width: 100%;
@@ -179,7 +188,6 @@
 }
 
 /* Home bottom */
-
 .home-bottom {
     height: 700px;
     background-color: white;
@@ -192,7 +200,7 @@
 .section-title {
     width: 75%; 
     margin-bottom: 20px;
-    margin-left: 0; 
+    margin-left: 40px;
 }
 
 .bottom-container {
@@ -209,35 +217,51 @@
 }
 
 .bottom-left {
-    background-color: black;
-    color: white;
+    color: black;
+}
+
+.bottom-left h1, .bottom-left p {
+    margin-bottom: 20px;
 }
 
 .bottom-right {
-    background-color: blue;
-    color: white;
+    color: black
 }
 
 .photo-1, .photo-2 {
     width: 100%;
     height: 250px;
-    background-color: blue;
     margin-top: 25px;
+    border-radius: 3px;
 }
 
 .photo-3 {
+    border-radius: 3px;
     height: 450px;
     width: 100%;
     margin-bottom: 25px;
-    background-color: black;
+    background-image: url('./assets/images/bakery.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photo-1 {
+    background-image: url('./assets/images/croissants.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photo-2 {
+    background-image: url('./assets/images/pizzeria-4918997_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* footer */
 
 .footer {
-    margin-top: 200px;
-    width: 100%;
-    height: 250px;
     background-color: #982B1C;
     color: white;
+    display: flex;
+    justify-content: space-between;
 }
