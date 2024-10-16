@@ -1,11 +1,15 @@
+body {
+    font-family: "Oswald", sans-serif;
+}
+
 .background {
-    background-image: url('./assets/images/bread.jpg');
-    background-size: cover;
+    background-image: url('./assets/images/Cornish_Bakery_Cheltenham_2023-332.webp');
+    background-size: contain;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position: center;
     font-family: "Roboto", sans-serif;
     min-height: 100vh; /* Full height fix */
+    opacity: 85%;
 }
 
 .top {
@@ -24,11 +28,12 @@
     justify-content: center;
     align-items: center;
     font-size: large;
-    text-transform: capitalize;
+    font-family: "Oswald", sans-serif;
     width: 100%;
     height: 130px;
-    opacity: 99%;
-    color: white;
+    color: black;
+    font-size:x-large;
+    font: bolder;
 }
 
 .nav-container1 {
@@ -86,7 +91,7 @@
     font-size: x-large;
     padding-top: 150px;
     text-align: center;
-    font-family: "Bungee Tint", sans-serif;
+    font-family: "Oswald", sans-serif;
     color: white;
     align-items: center;
     justify-content: center;
@@ -98,6 +103,7 @@
 .logo h2 {
     padding-top: 10px;
     padding-bottom: 75px;
+    font-size: 40px;
 }
 
 .logo-pic {
@@ -116,6 +122,8 @@
     height: 400px;
     width: 100%;
     background-color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
 }
 
 .links-container {
@@ -127,15 +135,8 @@
     background-color: white;
 }
 
-.mid-link-1 {
-    background-image: url('assets/images/pizzatile.jpg');
-    object-fit: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 250px;
-    width: 350px;
-    display: flex;
-    justify-content: center; 
+#links-container-headings {
+    color: white;
 }
 
 .mid-link-1 h2, .mid-link-2 h2, .mid-link-3 h2 {
@@ -143,8 +144,19 @@
     padding-top: 200px;
 }
 
+.mid-link-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('assets/images/pizzatile.jpg');
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+}
+
 .mid-link-2 {
-    background-image: url('assets/images/breadtile.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('assets/images/0806---pastries.jpg');
     object-fit: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -155,14 +167,14 @@
 }
 
 .mid-link-3 {
-    background-image: url('assets/images/deliverypizza.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('assets/images/deliverypizza.jpg');
     object-fit: contain;
     background-position: center;
     background-repeat: no-repeat;
     height: 250px;
     width: 350px;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
 }
 
 /* menu div */
@@ -176,6 +188,7 @@
     height: 600px;
     width: 100%;
     color: white;
+    font-family: "Oswald", sans-serif;
     font-size: xx-large;
     align-items: center;
     justify-content: center;
@@ -194,13 +207,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 .section-title {
     width: 75%; 
     margin-bottom: 20px;
     margin-left: 40px;
+    font-size: 40px;
 }
 
 .bottom-container {
@@ -208,7 +222,7 @@
     display: flex;
     justify-content: space-between;
     gap: 50px;
-    margin-bottom: 100px;
+    
 }
 
 .bottom-left, .bottom-right {
@@ -216,7 +230,7 @@
     padding: 20px;
 }
 
-.bottom-left {
+.bottom-left, .bottom-right {
     color: black;
 }
 
@@ -224,8 +238,12 @@
     margin-bottom: 20px;
 }
 
-.bottom-right {
-    color: black
+.bottom-left h1 {
+    font-size: 25px;
+}
+
+.bottom-left p, .bottom-right p {
+    font-family: "Roboto Mono", monospace;
 }
 
 .photo-1, .photo-2 {
