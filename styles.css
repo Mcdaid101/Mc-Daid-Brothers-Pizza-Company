@@ -3,13 +3,12 @@ body {
 }
 
 .background {
-    background-image: url('./assets/images/Cornish_Bakery_Cheltenham_2023-332.webp');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('./assets/images/Cornish_Bakery_Cheltenham_2023-332.webp');
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: scroll;
     font-family: "Roboto", sans-serif;
     min-height: 100vh; /* Full height fix */
-    opacity: 85%;
 }
 
 .top {
@@ -31,7 +30,7 @@ body {
     font-family: "Oswald", sans-serif;
     width: 100%;
     height: 130px;
-    color: black;
+    color: white;
     font-size:x-large;
     font: bolder;
 }
@@ -179,7 +178,7 @@ body {
 
 /* menu div */
 .download-menu  {
-    background-image: url('./assets/images/pizza-2810589\ \(1\).jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('./assets/images/pizza-2810589\ \(1\).jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
