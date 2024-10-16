@@ -7,7 +7,6 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    font-family: "Roboto", sans-serif;
     min-height: 100vh; /* Full height fix */
 }
 
@@ -210,10 +209,12 @@ body {
 }
 
 .section-title {
-    width: 75%; 
+    width: 75%;
+    margin-top: 25px;
     margin-bottom: 20px;
     margin-left: 40px;
     font-size: 40px;
+    color: #982B1C;
 }
 
 .bottom-container {
@@ -281,4 +282,9 @@ body {
     color: white;
     display: flex;
     justify-content: space-between;
+    font-family: "Roboto Mono", monospace;
+}
+
+.footer-title-colour {
+    color: white;
 }
