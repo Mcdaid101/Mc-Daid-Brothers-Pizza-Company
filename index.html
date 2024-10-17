@@ -20,40 +20,44 @@
     <div class="top"></div>
         <!-- Navigation Bar -->
 <div class="background">
-        <div class="nav-bar">
-            <div class="nav-container1">
-                <!-- Left: Logo -->
-                <ul class="nav-links nav-left">
-                    <li><a href="#"><div class="nav-logo"></div></a></li>
-                </ul>
-                <!-- Center: Navigation Links -->
-                <ul class="nav-links nav-center hidden md:block">
-                    <li class="hidden md:block"><a href="#">OUR STORY</a></li>
-                    <li class="hidden md:block"><a href="#">PIZZA</a></li>
-                    <li class="hidden md:block"><a href="#">BAKERY</a></li>
-                    <li class="hidden md:block"><a href="#">MENU</a></li>
-                    <li class="hidden md:block"><a href="assets/menu/menu.pdf" target="_blank">MENU</a></li>
-                    <li class="hidden md:block"><a href="#">CONTACT</a></li>
-                    <div class="dropdown hidden lg:block">
-                        <div tabindex="0" role="button" class="btn m-1">Click</div>
-                        <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
-                            <li><a href="#">OUR STORY</a></li>
-                            <li><a href="#">PIZZA</a></li>
-                            <li><a href="#">BAKERY</a></li>
-                            <li><a href="#">MENU</a></li>
-                            <li><a href="assets/menu/menu.pdf" target="_blank">MENU</a></li>
-                            <li><a href="#">CONTACT</a></li>
-                        </ul>
-                      </div>
-                </ul>
-                
-                <!-- Right: Social Media Icons -->
-                <ul class="nav-links nav-right">
-                    <li class="nav-end"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                    <li class="nav-end"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+    <div class="nav-bar">
+        <div class="nav-container1 flex">
+            <!-- Left: Logo -->
+            <ul class="nav-links nav-left">
+                <li><a href="#"><div class="nav-logo"></div></a></li>
+            </ul>
+    
+            <!-- Center: Navigation Links -->
+            <ul class="nav-links nav-center hidden md:flex space-x-4">
+                <li><a href="#">OUR STORY</a></li>
+                <li><a href="#">PIZZA</a></li>
+                <li><a href="#">BAKERY</a></li>
+                <li><a href="#">MENU</a></li>
+                <li><a href="assets/menu/menu.pdf" target="_blank">MENU</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+    
+            <!-- Dropdown for larger screens -->
+            <div class="dropdown hidden lg:block">
+                <div tabindex="0" role="button" class="btn m-1">Click</div>
+                <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+                    <li><a href="#">OUR STORY</a></li>
+                    <li><a href="#">PIZZA</a></li>
+                    <li><a href="#">BAKERY</a></li>
+                    <li><a href="#">MENU</a></li>
+                    <li><a href="assets/menu/menu.pdf" target="_blank">MENU</a></li>
+                    <li><a href="#">CONTACT</a></li>
                 </ul>
             </div>
+    
+            <!-- Right: Social Media Icons -->
+            <ul class="nav-links nav-right">
+                <li class="nav-end"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="nav-end"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
         </div>
+    </div>
+    
         <!-- Logo Section -->
         <div class="logo">
             <a href="#">
