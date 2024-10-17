@@ -9,10 +9,10 @@ body {
 
 .background {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('./assets/images/Cornish_Bakery_Cheltenham_2023-332.webp');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    min-height: 100vh; /* Full height fix */
+    width: 100%;
 }
 
 .top {
@@ -309,12 +309,6 @@ body {
         margin: 0; /* Remove default margin */
         padding: 0; /* Remove default padding */
     }
-
-    .background {
-        width: 100%;
-        background-size: cover;
-    }
-    
 
     /* mid links */
 
