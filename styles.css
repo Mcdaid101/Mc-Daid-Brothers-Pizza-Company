@@ -311,15 +311,15 @@ body {
     }
 
     .background {
-        width: 100%;
-        background-size: cover;
+        background-color: white;
+        background-image: none;
     }
 
     .logo {
         font-size: x-large;
         padding-top: 0px;
         font-family: "Oswald", sans-serif;
-        color: black;
+        color:#982B1C;
         align-items: center;
         justify-content: center;
         display: flex;
@@ -331,10 +331,10 @@ body {
     .logo-pic {
         height: 300px; 
         width: 300px;
-        background-color: black; 
         background-image: url('./assets/images/logo.png');
         background-size: contain;
         background-repeat: no-repeat;
+        
     }
     
 
