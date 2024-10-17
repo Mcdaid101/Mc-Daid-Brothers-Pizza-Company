@@ -348,6 +348,11 @@ body {
         display: none;
     }
 
+    .logo p {
+        padding-top: 30px;
+    }
+    
+
     /* mid links */
 
     .middle-links {
