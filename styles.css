@@ -26,6 +26,9 @@ body {
 
 /* nav bar */
 
+#chimney {
+    color: #982B1C;
+}
 .nav-bar {
     display: flex;
     justify-content: center;
@@ -63,7 +66,7 @@ body {
 .nav-center {
     display: flex;
     justify-content: center; 
-    flex: 2; 
+    flex: 2;
 }
 
 .nav-center li {
@@ -87,6 +90,10 @@ body {
     margin: 0;
     display: flex;
     align-items: center;
+}
+
+#dropdown-modal {
+    display: none; /* Hide on all screen sizes */
 }
 
 /* Logo on index.html */
@@ -310,6 +317,10 @@ body {
         padding: 0; /* Remove default padding */
     }
 
+    .nav-center {
+        display: none;
+    }
+
     /* mid links */
 
     .middle-links {
@@ -383,7 +394,8 @@ body {
 
 }
 
-
-@media only screen and (max-width: 767px) and (orientation: portrait) {
-    /* portrait phones */
+@media (max-width: 812px) {
+    #dropdown-modal {
+        display: block; /* Show on small screens */
+    }
 }
