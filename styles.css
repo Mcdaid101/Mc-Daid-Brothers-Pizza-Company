@@ -311,30 +311,8 @@ body {
     }
 
     .background {
-        background-color: white;
-        background-image: none;
-    }
-
-    .logo {
-        font-size: x-large;
-        padding-top: 0px;
-        font-family: "Oswald", sans-serif;
-        color:#982B1C;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        background-color: white;
-    }
-    
-    .logo-pic {
-        height: 300px; 
-        width: 300px;
-        background-image: url('./assets/images/logo.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-color: white;
+        width: 100%;
+        background-size: cover;
     }
     
 
