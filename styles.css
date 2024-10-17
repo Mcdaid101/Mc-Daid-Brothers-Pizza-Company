@@ -367,6 +367,14 @@ body {
     padding-bottom: 200px;
 }
 
+.pizza-photo-1 {
+    background-image: url('assets/images/pizzatile.jpg');
+}
+
+.pizza-photo-2 {
+    background-image: url('assets/images/pizza-2810589\ \(1\).jpg');
+}
+
 
 /* Media queries */
 
