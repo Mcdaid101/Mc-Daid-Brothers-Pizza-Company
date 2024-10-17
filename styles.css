@@ -111,7 +111,7 @@ body {
 .logo-pic {
     height: 300px; 
     width: 300px;
-     
+    opacity: 100%; 
     background-image: url('./assets/images/logo.png');
     background-size: contain;
     background-repeat: no-repeat;
