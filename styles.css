@@ -310,6 +310,10 @@ body {
         padding: 0; /* Remove default padding */
     }
 
+    .logo {
+        padding-top: 0px;
+    }
+
     /* mid links */
 
     .middle-links {
