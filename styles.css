@@ -333,6 +333,16 @@ body {
     text-decoration: none;
 }
 
+/* our story page */
+
+.our-story-headline h2 {
+    padding-bottom: 50px;
+}
+
+.about-photo-2 {
+    background-image: url(/assets/images/cinnamon-roll-4719023_1280.jpg);
+}
+
 
 /* Media queries */
 
