@@ -343,6 +343,30 @@ body {
     background-image: url(/assets/images/cinnamon-roll-4719023_1280.jpg);
 }
 
+/* Pizza page */
+
+
+.pizza-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('./assets/images/pizza-2810589\ \(1\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 100%;
+}
+
+.pizza-logo {
+    font-size: x-large;
+    padding-top: 150px;
+    font-family: "Oswald", sans-serif;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 200px;
+}
+
 
 /* Media queries */
 
