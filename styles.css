@@ -425,13 +425,21 @@ body {
 
 .opening-hours {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     max-width: 400px;
     margin: 0 auto;
     font-family: Arial, sans-serif;
 }
+
+.hours-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
 .days, .times {
-    width: 45%;
+    width: 50%;
+    font-family: "Roboto Mono", monospace;
 }
 
 
@@ -534,7 +542,24 @@ body {
         margin-left: 15px;
     }
 
+    .opening-hours {
+        width: 100%;
+    }
+
+    .hours-row {
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .contact-bottom {
+        padding-top: 1000px;
+    }
+
+    .days {
+        margin-left: 0;
+    }
 }
+
 
 @media (max-width: 812px) {
     #dropdown-modal {
