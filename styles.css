@@ -570,6 +570,14 @@ body {
     #dropdown-modal {
         display: block; /* Show on small screens */
     }
+
+    .footer {
+        background-color: #982B1C; /* Your red color */
+    }
+
+    .home-bottom {
+        background-color: white; /* White background for the area above footer */
+    }
 }
 
 .contact-footer {
