@@ -389,6 +389,20 @@ body {
     background-image: url('assets/images/pizza-2810589\ \(1\).jpg');
 }
 
+/* bakery page */
+
+.bakery-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('./assets/images/bread.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 100%;
+}
+
+.bakery-photo {
+    background-image: url('assets/images/bakery\ background.jpg');
+}
+
 
 /* Media queries */
 
