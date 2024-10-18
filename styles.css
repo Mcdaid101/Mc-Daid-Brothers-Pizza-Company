@@ -571,3 +571,8 @@ body {
         display: block; /* Show on small screens */
     }
 }
+
+.contact-footer {
+    margin: 0; /* Reset margins */
+    padding: 0; /* Reset padding */
+}
