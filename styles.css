@@ -558,6 +558,10 @@ body {
     .days {
         margin-left: 0;
     }
+
+    .contact-footer {
+        margin-top: 100px;
+    }
 }
 
 
