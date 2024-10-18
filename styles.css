@@ -480,6 +480,10 @@ body {
         margin-top: 400px;
     }
 
+    .pizza-bottom {
+        height: 1200px;
+    }
+
 }
 
 @media (max-width: 812px) {
