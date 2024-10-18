@@ -442,6 +442,10 @@ body {
     font-family: "Roboto Mono", monospace;
 }
 
+.contact-footer {
+    margin-top: 1px;
+}
+
 
 /* Media queries */
 
