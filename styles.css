@@ -403,6 +403,37 @@ body {
     background-image: url('assets/images/bakery\ background.jpg');
 }
 
+/* contact page */
+
+.contact-title {
+    padding-bottom: 150px;
+}
+
+.contact-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('./assets/images/0806---pastries.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 100%;
+}
+
+.contact-h3 {
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.opening-hours {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+.days, .times {
+    width: 45%;
+}
+
 
 /* Media queries */
 
@@ -496,6 +527,11 @@ body {
 
     .pizza-bottom {
         height: 1200px;
+    }
+
+    iframe {
+        width: 90%;
+        margin-left: 15px;
     }
 
 }

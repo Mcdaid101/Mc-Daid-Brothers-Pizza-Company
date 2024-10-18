@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mc Daid Bro's Pizza Co.</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-white">
+    <div class="top"></div>
+        <!-- Navigation Bar -->
+<div class="background contact-background">
+    <div class="nav-bar">
+        <div class="nav-container1 flex">
+            <!-- Left: Logo -->
+            <ul class="nav-links nav-left">
+                <li><a href="index.html"><div class="nav-logo"></div></a></li>
+            </ul>
+    
+            <!-- Center: Navigation Links -->
+            <ul class="nav-links nav-center">
+                <li><a href="about.html">OUR STORY</a></li>
+                <li><a href="pizza.html">PIZZA</a></li>
+                <li><a href="bakery.html">BAKERY</a></li>
+                <li><a href="assets/menu/menu.pdf" target="_blank">MENU</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+    
+            <!-- Dropdown for smaller screens -->
+            <div id="dropdown-modal" class="dropdown">
+                <div tabindex="0" role="button" class="btn m-1 bg-white"><i id="chimney" class="fa-solid fa-house-chimney bg-white"></i></div>
+                <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow bg-white text-black">
+                    <li><a href="about.html">OUR STORY</a></li>
+                    <li><a href="pizza.html">PIZZA</a></li>
+                    <li><a href="bakery.html">BAKERY</a></li>
+                    <li><a href="assets/menu/menu.pdf" target="_blank">MENU</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+    
+            <!-- Right: Social Media Icons -->
+            <ul class="nav-links nav-right">
+                <li class="nav-end"><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="nav-end"><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    
+        <!-- Logo Section -->
+        <div class="pizza-logo">
+            <h2 class="contact-title">CONTACT</h2>
+        </div>
+</div>
+
+    <!-- Home Bottom Section -->
+    <div class="home-bottom pizza-bottom">
+        <h2 class="section-title pizza-title">GET IN TOUCH</h2>
+        <div class="bottom-container">
+            <div class="bottom-left">
+                <p>We love getting feedback about our food and service</p>
+                <p>Email us at: info@mcdaidbros.com</p>
+                <h3 class="contact-h3">FIND US HERE</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d810.0967203868612!2d-7.736945372186573!3d54.950306386247604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sie!4v1729264390074!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="bottom-right pizza-right">
+                <a>
+                    <div href="index.html" class="logo-pic contact-logo"></div>
+                </a>
+                <h3>PHONE</h3>
+                <p>+44 (0) 75 5675 2876</p>
+                <br>
+                <h3>ADDRESS</h3>
+                <p>50 Letterkenny Main Street</p>
+                <p>Letterkenny</p>
+                <p>County Donegal</p>
+                <p>F92 VTT9</p>
+                <br>
+                <h3>OPENING HOURS</h3>
+                <br>
+                <div class="opening-hours">
+                    <div class="days">
+                        <p>Monday</p>
+                        <p>Tuesday</p>
+                        <p>Wednesday</p>
+                        <p>Thursday</p>
+                        <p>Friday</p>
+                        <p>Saturday</p>
+                        <p>Sunday</p>
+                    </div>
+                    <div class="times">
+                        <p>Closed</p>
+                        <p>Closed</p>
+                        <p>8:00 AM - 8:00 PM</p>
+                        <p>8:00 AM - 8:00 PM</p>
+                        <p>8:00 AM - 8:00 PM</p>
+                        <p>8:00 AM - 8:00 PM</p>
+                        <p>8:00 AM - 8:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer p-10 footer-about">
+        <nav>
+            <h6 class="text-xl text-white" style='font-family: "Oswald", sans-serif;'>Contact Us</h6>
+            <p>info@mcdaidbros.com</p>
+            <p>+44 (0) 75 5675 2876</p>
+            <p>&copy; <span id="year"></span> Mc Daid Brother's Bakery and Pizzeria | All rights reserved.</p>
+        </nav>
+        <nav>
+            <h6 class="text-xl text-white" style='font-family: "Oswald", sans-serif;'>About</h6>
+            <a href="about.html" class="link link-hover">Our Story</a>
+            <a href="pizza.html" class="link link-hover">Pizza</a>
+            <a href="bakery.html" class="link link-hover">Bakery</a>
+        </nav>
+        <nav>
+            <h6 class="text-xl text-white" style='font-family: "Oswald", sans-serif;'>Keep In Touch</h6>
+            <div class="grid grid-flow-col gap-4">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook footer-socials"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram footer-socials"></i></a>
+            </div>
+        </nav>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/602c42d7e5.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
