@@ -405,7 +405,6 @@ body {
 }
 
 .pizza-title {
-    
     font-size: 35px;
     margin-bottom: 20px;
     color: #982B1C;
@@ -589,6 +588,10 @@ body {
 		font-size: 35px;
 		color: #982B1C;
 	}
+
+    .pizza-footer {
+        margin-top: 50px;
+    }
 
 	.god-bless-sourdough {
 		margin-top: 40px;
