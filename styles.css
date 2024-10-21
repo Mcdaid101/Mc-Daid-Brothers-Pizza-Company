@@ -585,6 +585,10 @@ body {
 		margin-left: 0px;
 	}
 
+	.mobile-top {
+		padding-top: 75px;
+	}
+
 	.footer {
 		margin-top: 400px;
 	}
