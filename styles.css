@@ -482,6 +482,15 @@ body {
 	font-size: 20px;
 }
 
+.dropdown-image {
+	height: 150px;
+	width: 150px;
+	opacity: 100%;
+	background-image: url('./assets/images/logo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
 /* Media queries */
 
 @media only screen and (max-width: 812px) {
