@@ -344,7 +344,7 @@ body {
 }
 
 .about-photo-2 {
-    background-image: url(/assets/images/cinnamon-roll-4719023_1280.jpg);
+    background-image: url('./assets/images/cinnamon-roll-4719023_1280.jpg');
 }
 
 /* Pizza page */
@@ -382,6 +382,7 @@ body {
 
 .pizza-logo p {
     padding-top: 100px;
+    padding-bottom: 150px;
     font-family: "Roboto Mono", monospace;
 }
 
@@ -581,7 +582,7 @@ body {
     }
 
     .contact-title {
-        margin-bottom: 30px;
+        margin-bottom: 200px;
     }
 
     .info-titles {
