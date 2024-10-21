@@ -410,8 +410,12 @@ body {
 /* contact page */
 
 .contact-title {
-    font-size: 30px;
     margin-bottom: 135px;
+}
+
+.get-in-touch {
+    font-size: 30px;
+    margin-bottom: 25px;
 }
 
 .contact-bottom {
@@ -578,6 +582,10 @@ body {
 
     .contact-title {
         margin-bottom: 30px;
+    }
+
+    .info-titles {
+        margin-top: 25px;
     }
 
     .info-title-1 {
