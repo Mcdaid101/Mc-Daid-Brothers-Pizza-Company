@@ -37,16 +37,22 @@
             </ul>
     
             <!-- Dropdown for smaller screens -->
-            <div id="dropdown-modal" class="dropdown">
-                <div tabindex="0" role="button" class="btn m-1 bg-white"><i id="chimney" class="fa-solid fa-house-chimney bg-white"></i></div>
-                <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow bg-white text-black">
-                    <li><a href="about.html">OUR STORY</a></li>
-                    <li><a href="pizza.html">PIZZA</a></li>
-                    <li><a href="bakery.html">BAKERY</a></li>
-                    <li><a href="assets/menu/menu.pdf" target="_blank">MENU</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-            </div>
+            <button id="dropdown-modal" class="btn" onclick="my_modal_3.showModal()"><i id="chimney" class="fa-solid fa-house-chimney bg-white"></i></button>
+
+            <dialog id="my_modal_3" class="modal fixed inset-0 w-full h-full flex items-center justify-center bg-white bg-opacity-50">
+                <div class="modal-box w-full h-full max-w-none p-6 bg-white">
+                    <form method="dialog">
+                        <button class="btn btn-sm btn-circle btn-ghost absolute right-4 top-4 bg-black">✕</button>
+                    </form>
+                    <ul tabindex="0" class="w-full h-auto p-4 space-y-6 bg-white text-black text-[35px]">
+                        <li><a href="about.html">OUR STORY</a></li>
+                        <li><a href="pizza.html">PIZZA</a></li>
+                        <li><a href="bakery.html">BAKERY</a></li>
+                        <li><a href="assets/menu/menu.pdf" target="_blank">MENU</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </dialog>
     
             <!-- Right: Social Media Icons -->
             <ul class="nav-links nav-right">
