@@ -556,6 +556,7 @@ body {
     iframe {
         width: 90%;
         margin-left: 15px;
+        margin-bottom: 25px;
     }
 
     .opening-hours {
@@ -574,7 +575,14 @@ body {
     .contact-footer {
         margin-top: 100px;
     }
-    
+
+    .contact-title {
+        margin-bottom: 30px;
+    }
+
+    .info-title-1 {
+        margin-top: 25px;
+    }
 }
 
 
