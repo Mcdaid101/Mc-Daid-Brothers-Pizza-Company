@@ -104,6 +104,7 @@ body {
 
 #dropdown-modal {
 	display: none;
+    background-color: white;
 	/* Hide on all screen sizes */
 }
 
@@ -641,6 +642,7 @@ body {
 @media (max-width: 812px) {
 	#dropdown-modal {
 		display: block;
+        background-color: white;
 		/* Show on small screens */
 	}
 
